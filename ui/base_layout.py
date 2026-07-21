@@ -72,12 +72,12 @@ def style_background_dashboard():
         <style>
             /* Set the background color of the entire page */
             .stApp {
-                background-color: #5865F2!important;
+                background-color: #e2e2fe!important;
             }
 
             .stApp div[data-testid="stColumn"] {
                 background-color: #e0e3ff  !important;    
-                padding: 2.5rem !important;
+                padding: 1rem !important;
                 border-radius: 5rem !important;
                 
             }
@@ -90,9 +90,14 @@ def style_background_home():
         <style>
             /* Set the background color of the entire page */
             .stApp {
-                background-color: #E0E3FF!important;
+                background-color: #5965f1 !important;
             }
-
+            .stApp div[data-testid="stColumn"] {
+                background-color: #e0e3ff  !important;    
+                padding: 2.5rem !important;
+                border-radius: 5rem !important;
+                
+            }
           
         </style>
         """, unsafe_allow_html=True)
