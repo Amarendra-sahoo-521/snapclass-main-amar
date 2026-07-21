@@ -1,11 +1,13 @@
 streamlit
+supabase
+
 numpy
 pandas
 
 
 
 #DB
-supabase
+
 bcrypt
 
 #QR And Image preprocessing
