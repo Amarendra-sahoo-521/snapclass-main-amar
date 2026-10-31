@@ -53,7 +53,7 @@ def student_login_form():
     st.header("Login With FaceID",text_alignment="center")
     st.space()
     st.space()
-    photo_src = st.camera_input("position your face in center")
+    photo_src = st.camera_input("Position your face in center")
     
     if photo_src:
        img = np.array(Image.open(photo_src))

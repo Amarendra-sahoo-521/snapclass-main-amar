@@ -6,7 +6,7 @@ from src.screens.home_screen import home_screen
 from src.components.auto_enroll_dialog import auto_enroll_dialog
 
 def main():
-    st.set_page_config(page_title="Snap Class by Amar",page_icon="https://i.ibb.co/YTYGn5qV/logo.png")
+    st.set_page_config(page_title="Snap Class by Amar",page_icon="https://i.ibb.co/YTYGn5qV/logo.png", )
     if 'login_type' not in st.session_state:
         st.session_state['login_type'] = None
         
